@@ -6,7 +6,7 @@
 
     <parameters>
         <parameter key="fp_openid.identity_manager.class">Fp\OpenIdBundle\Entity\IdentityManager</parameter>
-        <parameter key="fp_openid.user_manager.class">Fp\OpenIdBundle\Model\UserManager</parameter>
+        <parameter key="fp_openid.user_manager.class">Fp\OpenIdBundle\Model\UserManagerInterface</parameter>
     </parameters>
 
     <services>
